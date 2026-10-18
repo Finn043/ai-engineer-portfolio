@@ -1,16 +1,20 @@
 # Bao Tin Luong | AI Engineer Portfolio
 
-Static portfolio for AI Engineer, RAG, applied machine learning, and data-pipeline work. Its visual system follows the current one-page CV: white page, serif name and section headings, thin violet rules, compact technical detail, and clear experience and project sections.
+Standalone AI Engineer portfolio for LLM applications, RAG, applied machine learning, and data-pipeline work. It retains the original dark, video-backed portfolio design; the AI version changes the candidate content and project evidence while keeping the established visual system and interactions.
+
+## Keep the two portfolios separate
+
+- **AI Engineer:** <https://bao-tin-luong-ai-portfolio.netlify.app>
+- **Data Analyst:** <https://tin-luong-portfolio.netlify.app>
+- **AI portfolio source:** <https://github.com/Finn043/ai-engineer-portfolio>
+
+Do not combine these sites or deployments. See [`AGENTS.md`](AGENTS.md) for the user-approved design and content boundaries.
 
 ## Sections and interactions
 
-- Hero profile with a responsive portrait, counters, and downloadable AI CV.
-- Technical skills, expandable experience timeline, and project cards with detailed metric and implementation modals.
-- Education, capstone project leadership, and certifications.
-- About modal with the existing cursor-tracking, clickable mascot.
-- Responsive navigation: desktop links collapse to a menu below 920px.
+The page order is Hero, Experience, Projects, Tech Stack, Education & Certifications, and Contact. It has a looping video background, portrait-led hero, animated experience metrics, expandable experience timeline, project cards with overview/data/stack/GitHub/live links, technology logo grid, and an About modal with the existing cursor-tracking and clickable mascot.
 
-The order follows the CV: summary, technical skills, experience, selected projects, then education and certifications. Experience dates and claims should stay aligned with the latest user-approved CV; confirm conflicts with older saved versions before changing facts.
+Project and experience content is maintained in `main.js`; layout is in `index.html` and `styles.css`. The expandable timeline uses one `.timeline-node` element per entry so each marker remains aligned to the vertical rail while a card opens.
 
 ## Project list
 
@@ -22,7 +26,7 @@ The order follows the CV: summary, technical skills, experience, selected projec
 
 ## Build and preview
 
-No framework build is required. `build.sh` copies the page and its required assets into `dist/`.
+No framework build is required. `build.sh` copies the page and required assets into `dist/`.
 
 ```sh
 sh build.sh
@@ -33,6 +37,4 @@ Open <http://127.0.0.1:8000>.
 
 ## Deployment
 
-- Live site: <https://bao-tin-luong-ai-portfolio.netlify.app>
-- GitHub: <https://github.com/Finn043/ai-engineer-portfolio>
-- Netlify builds with `sh build.sh` and publishes `dist/`.
+Netlify builds with `sh build.sh` and publishes `dist/`. This folder is connected to the separate Netlify project for the AI portfolio; do not deploy it to the Data portfolio site.
