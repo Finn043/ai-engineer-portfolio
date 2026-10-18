@@ -186,15 +186,15 @@ img { display: block; max-width: 100%; }
 .section-copy p { margin-top: 20px; max-width: 640px; color: currentColor; opacity: .68; font-size: clamp(16px, 2vw, 20px); line-height: 1.6; }
 .tech-grid, .project-grid, .contact-links, .timeline { width: min(100%, 1180px); margin: 0 auto; }
 .timeline { position: relative; display: grid; gap: 18px; }
-.timeline::before { content: ""; position: absolute; left: 126px; top: 24px; bottom: 24px; width: 1px; background: linear-gradient(180deg, transparent, rgba(255,255,255,.45), transparent); }
+.timeline::before { content: ""; position: absolute; left: 250px; top: 24px; bottom: 24px; width: 1px; background: linear-gradient(180deg, transparent, rgba(255,255,255,.45), transparent); }
 .timeline-item {
-  position: relative; display: grid; grid-template-columns: 176px 1fr auto; gap: 30px; align-items: start;
+  position: relative; display: grid; grid-template-columns: 210px minmax(0, 1fr) auto; gap: 24px; align-items: start;
   width: 100%; border: 1px solid rgba(255,255,255,.14); border-radius: 26px;
   background: linear-gradient(135deg, rgba(255,255,255,.1), rgba(255,255,255,.035));
   color: #fff; padding: 28px; text-align: left; overflow: hidden;
   transition: transform .25s ease, border-color .25s ease, background .25s ease;
 }
-.timeline-node { position: absolute; z-index: 2; top: 34px; left: 120px; width: 13px; height: 13px; border: 2px solid #111; border-radius: 50%; background: #fff; box-shadow: 0 0 0 1px rgba(255,255,255,.72); pointer-events: none; }
+.timeline-node { position: absolute; z-index: 2; top: 40px; left: 243px; width: 13px; height: 13px; border: 2px solid #111; border-radius: 50%; background: #fff; box-shadow: 0 0 0 1px rgba(255,255,255,.72); pointer-events: none; }
 .timeline-item:hover, .timeline-item.active { transform: none; border-color: rgba(255,255,255,.38); background: linear-gradient(135deg, rgba(255,255,255,.15), rgba(255,255,255,.055)); }
 .timeline-item::before { content: ""; position: absolute; inset: 0; background: radial-gradient(circle at 12% 18%, rgba(255,255,255,.12), transparent 24%); opacity: 0; transition: opacity .25s ease; }
 .timeline-item.active::before, .timeline-item:hover::before { opacity: 1; }
