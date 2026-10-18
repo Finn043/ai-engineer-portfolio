@@ -216,6 +216,7 @@ projectGrid.innerHTML = featuredProjectOrder.map((index) => {
 
 experienceList.innerHTML = experience.map((item, index) => `
   <button class="timeline-item ${index === 0 ? 'active' : ''}" type="button" data-experience="${index}" aria-expanded="${index === 0}">
+    <span class="timeline-node" aria-hidden="true"></span>
     <div class="timeline-period">${item.period}</div>
     <div>
       <div class="timeline-company">${item.company}</div>
