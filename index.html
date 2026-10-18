@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bao Tin Luong | AI Engineer Portfolio</title>
+    <meta name="description" content="Bao Tin Luong's AI portfolio: RAG, applied machine learning, data modeling, and engineering projects." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- AI Engineer portfolio: applied RAG, machine learning, and data-modeling work. -->
+    <div class="site-shell">
+      <section class="page" id="home">
+        <header class="header anim">
+          <a href="#home" class="logo" aria-label="Bao Tin Luong home">
+            <img src="assets/logo.webp" alt="" width="52" height="52" />
+          </a>
+          <nav class="nav-pill" aria-label="Primary navigation">
+            <a class="active" href="#home">Home</a>
+            <a href="#tech">Tech Stack</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#credentials">Education</a>
+            <a href="#contact">Contact</a>
+          </nav>
+          <a class="sign-in" href="mailto:tin.bao.luong@gmail.com">Let's talk</a>
+          <button class="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+            <span></span><span></span><span></span>
+          </button>
+        </header>
+
+        <div class="mobile-overlay" hidden></div>
+        <div class="mobile-menu" id="mobile-menu" hidden>
+          <a class="active" href="#home">Home</a>
+          <a href="#tech">Tech Stack</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#credentials">Education</a>
+          <a href="#contact">Contact</a>
+          <a class="mobile-signin" href="mailto:tin.bao.luong@gmail.com">Let's talk</a>
+        </div>
+
+        <main class="hero">
+          <div class="hero-copy">
+            <p class="hero-eyebrow anim" style="--d: 0.05s">AI Engineer <span>|</span> LLM Applications, RAG &amp; Applied ML</p>
+
+            <h1 class="headline">
+              <span>Bao Tin</span>
+              <span>Luong</span>
+            </h1>
+
+            <p class="subhead anim" style="--d: 0.28s">
+              Early-career AI Engineer specializing in LLM applications, retrieval-augmented generation, and applied machine learning. I bring analytics data modeling and ETL experience to source-grounded, traceable AI systems.
+            </p>
+
+            <div class="hero-actions anim" style="--d: 0.4s">
+              <a class="cta" href="#projects">Featured projects</a>
+              <a class="ghost-cta" href="assets/bao-tin-luong-ai-resume.pdf" download>Download CV</a>
+            </div>
+          </div>
+
+          <button class="hero-portrait anim" type="button" style="--d: 0.08s" aria-label="Open Bao Tin Luong introduction">
+            <img src="assets/portrait.png" alt="Bao Tin Luong professional portrait" />
+            <span class="about-chip">About me</span>
+          </button>
+        </main>
+
+        <footer class="stats" aria-label="Selected experience metrics">
+          <div class="stat anim" style="--d: 0.5s" data-target="50" data-suffix="+" data-decimals="0">
+            <div class="stat-icon">01</div>
+            <div><strong>0</strong><span></span></div>
+            <p>Commercial KPIs</p>
+          </div>
+          <div class="stat anim" style="--d: 0.58s" data-target="200" data-suffix="+" data-decimals="0">
+            <div class="stat-icon">02</div>
+            <div><strong>0</strong><span></span></div>
+            <p>RAG Evaluation Examples</p>
+          </div>
+          <div class="stat anim" style="--d: 0.66s" data-target="25" data-suffix="%" data-decimals="0">
+            <div class="stat-icon">03</div>
+            <div><strong>0</strong><span></span></div>
+            <p>Less Manual Review</p>
+          </div>
+          <div class="stat anim" style="--d: 0.74s" data-target="1" data-suffix="M+" data-decimals="0">
+            <div class="stat-icon">04</div>
+            <div><strong>0</strong><span></span></div>
+            <p>Rows Processed Daily</p>
+          </div>
+        </footer>
+      </section>
+
+      <section class="content-section tech-section" id="tech">
+        <div class="section-copy reveal">
+          <h2>Technical Skills</h2>
+          <p>Core languages, AI/ML methods, engineering tools, cloud services, and analytics foundations.</p>
+        </div>
+        <div class="tech-grid reveal" id="tech-grid"></div>
+      </section>
+
+      <section class="content-section experience-section" id="experience">
+        <div class="section-copy reveal">
+          <h2>Experience Timeline</h2>
+          <p>Experience across analytics, insurance AI support, and chatbot data modeling, with exact dates and clear role boundaries.</p>
+        </div>
+        <div class="timeline reveal" id="experience-list"></div>
+      </section>
+
+      <section class="content-section projects-section" id="projects">
+        <div class="section-copy reveal">
+          <h2>Featured AI &amp; ML Projects</h2>
+          <p>Applied work across source-grounded retrieval, machine-learning workflows, and cloud architecture.</p>
+        </div>
+        <div class="project-grid reveal" id="project-grid"></div>
+      </section>
+
+      <section class="content-section credential-section" id="credentials">
+        <div class="section-copy reveal">
+          <h2>Education &amp; Certifications</h2>
+          <p>Academic foundation, project leadership, and focused professional learning.</p>
+        </div>
+        <article class="education-entry reveal">
+          <div><p class="credential-provider">2023 – 2026 · Melbourne</p><h3>Bachelor of Data Science</h3><p class="education-school">Swinburne University of Technology</p></div>
+          <p class="education-capstone"><strong>Capstone Project Manager</strong> · Led end-to-end analytics delivery, coordinating scope, sprint milestones, stakeholder updates, Git/Jira teamwork, and final presentation.</p>
+        </article>
+        <article class="credential-card reveal">
+          <div class="credential-mark" aria-hidden="true">ML</div>
+          <div>
+            <p class="credential-provider">DeepLearning.AI · Stanford Online · Coursera</p>
+            <h3>Machine Learning Specialization</h3>
+            <p>Andrew Ng · Supervised learning, advanced learning algorithms, and unsupervised learning foundations.</p>
+          </div>
+          <span class="credential-status">Completed</span>
+        </article>
+        <article class="credential-card reveal">
+          <div class="credential-mark" aria-hidden="true">dbt</div>
+          <div>
+            <p class="credential-provider">dbt Labs</p>
+            <h3>dbt Fundamentals</h3>
+            <p>Core concepts in analytics engineering, dbt projects, models, testing, and documentation.</p>
+          </div>
+          <span class="credential-status">Completed</span>
+        </article>
+      </section>
+
+      <section class="content-section contact-section" id="contact">
+        <div class="section-copy reveal">
+          <h2>Let's build useful AI.</h2>
+          <p>I am an early-career AI Engineer looking to contribute across data preparation, retrieval, model evaluation, and applied machine learning.</p>
+        </div>
+        <div class="contact-links reveal">
+          <a href="mailto:tin.bao.luong@gmail.com">tin.bao.luong@gmail.com</a>
+          <a href="https://github.com/Finn043" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/tin-luong-8a0908259/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </section>
+    </div>
+
+    <dialog class="project-modal" id="project-modal" aria-labelledby="modal-title">
+      <button class="modal-close" type="button" aria-label="Close project details">×</button>
+      <img class="modal-image" src="assets/bjj-rag-preview.png" alt="Project preview" />
+          <div class="modal-body">
+            <p class="modal-kicker"></p>
+            <h2 id="modal-title"></h2>
+            <p class="modal-overview"></p>
+            <div class="modal-data"></div>
+            <div class="modal-points"></div>
+            <div class="modal-stack"></div>
+            <div class="modal-links"></div>
+          </div>
+    </dialog>
+    <dialog class="about-modal" id="about-modal" aria-labelledby="about-title">
+      <button class="modal-close" type="button" aria-label="Close introduction">×</button>
+      <div class="about-modal-grid">
+        <div class="about-photo">
+          <button
+            class="mascot-button about-mascot"
+            type="button"
+            aria-label="Boop Bao Tin Luong mascot"
+            data-mascot
+            data-directions="mascots/bao-directions.webp"
+            data-reactions="mascots/bao-reactions.webp"
+          >
+            <span class="mascot-stage" aria-hidden="true">
+              <span class="mascot-layer mascot-directions"></span>
+              <span class="mascot-layer mascot-reactions"></span>
+            </span>
+          </button>
+          <p class="about-photo-caption">Interactive mascot · click for reactions</p>
+        </div>
+        <div class="modal-body about-letter">
+          <div class="about-letter-header">
+            <p class="modal-kicker">AI ENGINEER</p>
+            <h2 id="about-title">Building AI on dependable foundations</h2>
+            <p>Data modeling, retrieval, and practical machine learning.</p>
+          </div>
+
+          <p class="letter-lead">I am an early-career AI Engineer in Melbourne. I am most interested in the work that makes an AI feature useful beyond a prototype: preparing dependable data, retrieving relevant evidence, and making outputs clear enough to inspect.</p>
+          <p class="letter-lead">My experience spans analytics data modeling for a chatbot at MoMo, support for an insurance RAG initiative at CoverGo, and data analysis and pipeline work at Filum.ai.</p>
+
+          <hr class="letter-divider" />
+
+          <section class="letter-section">
+            <h3>Start with the data and evidence</h3>
+            <p>AI systems inherit the strengths and weaknesses of the information around them. A chatbot needs data that can be analyzed consistently; a RAG assistant needs relevant source passages and citations that people can check.</p>
+            <p>I enjoy working on these foundations because they connect model behavior to the real information a product is meant to use.</p>
+          </section>
+
+          <hr class="letter-divider" />
+
+          <section class="letter-section">
+            <h3>How I approach applied AI</h3>
+            <div class="commitment-list">
+              <article>
+                <span>01</span>
+                <h4>01 · Ground answers in sources</h4>
+                <p>In my BJJ research assistant, PDF pages are extracted, divided into overlapping chunks, embedded, and retrieved by cosine similarity before an LLM responds with file and page citations.</p>
+              </article>
+              <article>
+                <span>02</span>
+                <h4>02 · Build the data layer</h4>
+                <p>At MoMo, I built the analytics data model for an AI chatbot project. That experience keeps me attentive to how event data is structured for meaningful analysis.</p>
+              </article>
+              <article>
+                <span>03</span>
+                <h4>03 · Learn the model mechanics</h4>
+                <p>My personal projects implement K-Means, PCA, linear regression, loss functions, and gradient descent with NumPy, so I can inspect how the algorithms behave rather than treating them as black boxes.</p>
+              </article>
+            </div>
+          </section>
+
+          <hr class="letter-divider" />
+
+          <section class="letter-section">
+            <h3>What I am building toward</h3>
+            <p>I am completing formal study in machine learning alongside projects that put the concepts into working systems. I try to be careful about what has been measured, what remains an assumption, and where a model needs stronger evaluation.</p>
+            <p>I bring a data analyst's attention to source quality and stakeholder context, with growing hands-on experience in Python, embeddings, retrieval, FastAPI, and model fundamentals.</p>
+          </section>
+
+          <hr class="letter-divider" />
+
+          <section class="letter-section letter-closing">
+            <p>I am looking for an early-career AI Engineer opportunity where I can contribute to dependable, evidence-aware AI features and keep growing as an engineer.</p>
+            <p class="letter-signoff">Bao Tin Luong</p>
+            <div class="modal-links">
+              <a href="mailto:tin.bao.luong@gmail.com">Start a Conversation</a>
+              <a href="assets/bao-tin-luong-ai-resume.pdf" download>View AI CV (PDF)</a>
+            </div>
+          </section>
+        </div>
+      </div>
+    </dialog>
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Melbourne house price model workflow</title>
+  <desc id="desc">A diagram showing housing features entering a NumPy linear regression model, followed by loss calculation and gradient descent updates.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#141414"/><stop offset="1" stop-color="#030303"/></linearGradient>
+    <linearGradient id="panel" x2="0" y2="1"><stop stop-color="#242424"/><stop offset="1" stop-color="#101010"/></linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <path d="M0 520H1200M0 560H1200" stroke="#fff" stroke-opacity=".045"/>
+  <text x="70" y="91" fill="#929292" font-family="Arial,sans-serif" font-size="19" letter-spacing="5">NUMPY MACHINE LEARNING ENGINE</text>
+  <text x="70" y="156" fill="#fff" font-family="Arial,sans-serif" font-size="48" font-weight="700">Melbourne House Price Prediction</text>
+  <text x="70" y="198" fill="#b7b7b7" font-family="Arial,sans-serif" font-size="22">An interpretable linear regression training loop</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="72" y="281" width="230" height="210" rx="20" fill="url(#panel)" stroke="#fff" stroke-opacity=".2"/>
+    <text x="104" y="325" fill="#fff" font-size="20" font-weight="700">HOUSE FEATURES</text>
+    <text x="104" y="370" fill="#ccc" font-size="19">Rooms · distance</text>
+    <text x="104" y="405" fill="#ccc" font-size="19">Bathroom · car</text>
+    <text x="104" y="440" fill="#ccc" font-size="19">Type · region</text>
+    <text x="104" y="472" fill="#888" font-size="15">scaled + encoded</text>
+
+    <path d="M316 385h70" stroke="#e7e7e7" stroke-width="3"/><path d="m376 374 14 11-14 11" fill="none" stroke="#e7e7e7" stroke-width="3"/>
+    <rect x="405" y="281" width="244" height="210" rx="20" fill="url(#panel)" stroke="#fff" stroke-opacity=".45"/>
+    <text x="439" y="325" fill="#fff" font-size="20" font-weight="700">LINEAR MODEL</text>
+    <text x="439" y="379" fill="#fff" font-size="34" font-weight="700">ŷ = Xw + b</text>
+    <text x="439" y="423" fill="#bbb" font-size="18">NumPy implementation</text>
+    <text x="439" y="463" fill="#888" font-size="15">weights updated each epoch</text>
+
+    <path d="M662 385h70" stroke="#e7e7e7" stroke-width="3"/><path d="m722 374 14 11-14 11" fill="none" stroke="#e7e7e7" stroke-width="3"/>
+    <rect x="751" y="281" width="198" height="210" rx="20" fill="url(#panel)" stroke="#fff" stroke-opacity=".2"/>
+    <text x="781" y="325" fill="#fff" font-size="20" font-weight="700">LOSS</text>
+    <text x="781" y="372" fill="#ccc" font-size="20">MSE</text>
+    <text x="781" y="412" fill="#ccc" font-size="20">MAE</text>
+    <text x="781" y="452" fill="#ccc" font-size="20">Huber</text>
+
+    <path d="M961 385h70" stroke="#e7e7e7" stroke-width="3"/><path d="m1021 374 14 11-14 11" fill="none" stroke="#e7e7e7" stroke-width="3"/>
+    <rect x="1050" y="281" width="90" height="210" rx="20" fill="url(#panel)" stroke="#fff" stroke-opacity=".2"/>
+    <text x="1066" y="325" fill="#fff" font-size="16" font-weight="700">UPDATE</text>
+    <text x="1066" y="380" fill="#ccc" font-size="15">Batch</text>
+    <text x="1066" y="413" fill="#ccc" font-size="15">or</text>
+    <text x="1066" y="446" fill="#ccc" font-size="15">SGD</text>
+  </g>
+  <text x="72" y="588" fill="#8d8d8d" font-family="Arial,sans-serif" font-size="17" letter-spacing="3">FASTAPI · REACT · TYPESCRIPT</text>
+</svg>

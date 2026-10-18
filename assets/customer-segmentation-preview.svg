@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Customer segmentation workflow</title>
+  <desc id="desc">An exploratory workflow from customer features through standardization and NumPy K-Means to cluster profiling and PCA visualization.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#141414"/><stop offset="1" stop-color="#030303"/></linearGradient>
+    <linearGradient id="panel" x2="0" y2="1"><stop stop-color="#242424"/><stop offset="1" stop-color="#101010"/></linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <path d="M0 520H1200M0 560H1200" stroke="#fff" stroke-opacity=".045"/>
+  <text x="70" y="91" fill="#929292" font-family="Arial,sans-serif" font-size="19" letter-spacing="5">UNSUPERVISED LEARNING · NUMPY</text>
+  <text x="70" y="156" fill="#fff" font-family="Arial,sans-serif" font-size="48" font-weight="700">Customer Segmentation</text>
+  <text x="70" y="198" fill="#b7b7b7" font-family="Arial,sans-serif" font-size="22">Explore groups without treating cluster IDs as ground truth</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="72" y="281" width="235" height="210" rx="20" fill="url(#panel)" stroke="#fff" stroke-opacity=".2"/>
+    <text x="104" y="325" fill="#fff" font-size="20" font-weight="700">CUSTOMER DATA</text>
+    <text x="104" y="373" fill="#ccc" font-size="19">Age</text>
+    <text x="104" y="413" fill="#ccc" font-size="19">Annual income</text>
+    <text x="104" y="453" fill="#ccc" font-size="19">Spending score</text>
+
+    <path d="M321 385h68" stroke="#e7e7e7" stroke-width="3"/><path d="m379 374 14 11-14 11" fill="none" stroke="#e7e7e7" stroke-width="3"/>
+    <rect x="408" y="281" width="206" height="210" rx="20" fill="url(#panel)" stroke="#fff" stroke-opacity=".2"/>
+    <text x="440" y="325" fill="#fff" font-size="20" font-weight="700">STANDARDIZE</text>
+    <text x="440" y="384" fill="#ccc" font-size="21">z = (x − μ) / σ</text>
+    <text x="440" y="435" fill="#888" font-size="16">fit on input features</text>
+    <text x="440" y="465" fill="#888" font-size="16">reuse for new points</text>
+
+    <path d="M628 385h68" stroke="#e7e7e7" stroke-width="3"/><path d="m686 374 14 11-14 11" fill="none" stroke="#e7e7e7" stroke-width="3"/>
+    <rect x="715" y="281" width="206" height="210" rx="20" fill="url(#panel)" stroke="#fff" stroke-opacity=".45"/>
+    <text x="747" y="325" fill="#fff" font-size="20" font-weight="700">K-MEANS</text>
+    <text x="747" y="380" fill="#ccc" font-size="19">k-means++ seed</text>
+    <text x="747" y="419" fill="#ccc" font-size="19">assign + update</text>
+    <text x="747" y="465" fill="#888" font-size="16">NumPy implementation</text>
+
+    <path d="M935 385h68" stroke="#e7e7e7" stroke-width="3"/><path d="m993 374 14 11-14 11" fill="none" stroke="#e7e7e7" stroke-width="3"/>
+    <rect x="1022" y="281" width="118" height="210" rx="20" fill="url(#panel)" stroke="#fff" stroke-opacity=".2"/>
+    <text x="1044" y="325" fill="#fff" font-size="18" font-weight="700">INSPECT</text>
+    <text x="1044" y="379" fill="#ccc" font-size="17">SSE</text>
+    <text x="1044" y="413" fill="#ccc" font-size="17">Silhouette</text>
+    <text x="1044" y="453" fill="#ccc" font-size="17">PCA view</text>
+  </g>
+  <text x="72" y="588" fill="#8d8d8d" font-family="Arial,sans-serif" font-size="17" letter-spacing="3">EXPLORATORY ANALYSIS · HUMAN INTERPRETATION REQUIRED</text>
+</svg>

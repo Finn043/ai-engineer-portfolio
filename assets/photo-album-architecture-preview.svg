@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">AWS Photo Album Cloud Architecture</title>
+  <desc id="desc">Serverless photo application architecture using CloudFront, S3, API Gateway, Lambda, DynamoDB, SNS, and CloudWatch.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#17130f"/><stop offset="1" stop-color="#080a0d"/></linearGradient>
+    <linearGradient id="aws" x2="0" y2="1"><stop stop-color="#ffb84d"/><stop offset="1" stop-color="#f27b16"/></linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1080" cy="64" r="190" fill="#f89b2d" opacity=".06"/>
+  <text x="68" y="76" fill="#b3a18c" font-family="Arial,sans-serif" font-size="18" letter-spacing="5">CLOUD COMPUTING ARCHITECTURE · AWS</text>
+  <text x="68" y="142" fill="#fff" font-family="Arial,sans-serif" font-size="52" font-weight="700">Photo Album Cloud Architecture</text>
+  <text x="70" y="184" fill="#c8c0b5" font-family="Arial,sans-serif" font-size="22">Serverless · event-driven · designed for scale</text>
+  <g font-family="Arial,sans-serif" text-anchor="middle">
+    <rect x="72" y="264" width="174" height="118" rx="19" fill="#121820" stroke="#fff" stroke-opacity=".18"/>
+    <text x="159" y="312" fill="#9ba9b4" font-size="15" letter-spacing="2">GLOBAL DELIVERY</text><text x="159" y="350" fill="#fff" font-size="27" font-weight="700">CloudFront</text>
+    <path d="M248 323h46" stroke="url(#aws)" stroke-width="4"/><path d="m285 313 13 10-13 10" fill="none" stroke="url(#aws)" stroke-width="4"/>
+    <rect x="310" y="264" width="174" height="118" rx="19" fill="#121820" stroke="#fff" stroke-opacity=".18"/>
+    <text x="397" y="312" fill="#9ba9b4" font-size="15" letter-spacing="2">WEB + MEDIA</text><text x="397" y="350" fill="#fff" font-size="27" font-weight="700">Amazon S3</text>
+    <path d="M486 323h46" stroke="url(#aws)" stroke-width="4"/><path d="m523 313 13 10-13 10" fill="none" stroke="url(#aws)" stroke-width="4"/>
+    <rect x="548" y="264" width="174" height="118" rx="19" fill="#121820" stroke="#fff" stroke-opacity=".18"/>
+    <text x="635" y="312" fill="#9ba9b4" font-size="15" letter-spacing="2">HTTP API</text><text x="635" y="350" fill="#fff" font-size="27" font-weight="700">API Gateway</text>
+    <path d="M724 323h46" stroke="url(#aws)" stroke-width="4"/><path d="m761 313 13 10-13 10" fill="none" stroke="url(#aws)" stroke-width="4"/>
+    <rect x="786" y="264" width="174" height="118" rx="19" fill="#121820" stroke="#fff" stroke-opacity=".18"/>
+    <text x="873" y="312" fill="#9ba9b4" font-size="15" letter-spacing="2">UPLOAD + LIST</text><text x="873" y="350" fill="#fff" font-size="27" font-weight="700">Lambda</text>
+    <path d="M962 323h46" stroke="url(#aws)" stroke-width="4"/><path d="m999 313 13 10-13 10" fill="none" stroke="url(#aws)" stroke-width="4"/>
+    <rect x="1024" y="264" width="112" height="118" rx="19" fill="#121820" stroke="#fff" stroke-opacity=".18"/>
+    <text x="1080" y="312" fill="#9ba9b4" font-size="14" letter-spacing="1">METADATA</text><text x="1080" y="350" fill="#fff" font-size="17" font-weight="700">DynamoDB</text>
+  </g>
+  <path d="M873 390v76h-162" fill="none" stroke="url(#aws)" stroke-width="3" stroke-dasharray="8 8"/>
+  <rect x="470" y="450" width="210" height="114" rx="18" fill="#151820" stroke="#f89b2d" stroke-opacity=".65"/>
+  <text x="575" y="495" fill="#f2bb79" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" letter-spacing="2">ASYNC EVENT</text>
+  <text x="575" y="535" fill="#fff" font-family="Arial,sans-serif" font-size="28" text-anchor="middle" font-weight="700">SNS → Lambda</text>
+  <path d="M470 507h-118v-96" fill="none" stroke="#aab5bd" stroke-width="2" stroke-dasharray="6 7"/>
+  <rect x="110" y="431" width="242" height="132" rx="18" fill="#121820" stroke="#fff" stroke-opacity=".17"/>
+  <text x="231" y="478" fill="#9ba9b4" font-family="Arial,sans-serif" font-size="15" text-anchor="middle" letter-spacing="2">THUMBNAILS</text>
+  <text x="231" y="518" fill="#fff" font-family="Arial,sans-serif" font-size="24" text-anchor="middle" font-weight="700">Process → S3</text>
+  <text x="760" y="516" fill="#929da5" font-family="Arial,sans-serif" font-size="17">CloudWatch logs · IAM roles · least privilege</text>
+  <rect x="68" y="612" width="10" height="10" rx="5" fill="url(#aws)"/><text x="91" y="622" fill="#aa9e91" font-family="Arial,sans-serif" font-size="14" letter-spacing="3">ARCHITECTURE PROPOSAL · TEAM REPORT</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Melbourne Weather Lab</title>
+  <desc id="desc">A weather analytics interface showing historical observations, rainfall estimates, and model readouts.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10212d"/><stop offset="1" stop-color="#080b12"/></linearGradient>
+    <linearGradient id="accent" x2="0" y2="1"><stop stop-color="#72d8df"/><stop offset="1" stop-color="#7288ff"/></linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1040" cy="116" r="132" fill="#6ed9df" opacity=".07"/>
+  <text x="68" y="78" fill="#9bb7c6" font-family="Arial,sans-serif" font-size="18" letter-spacing="5">NOAA OBSERVATIONS · MELBOURNE AIRPORT</text>
+  <text x="68" y="145" fill="#fff" font-family="Arial,sans-serif" font-size="54" font-weight="700">Melbourne Weather Lab</text>
+  <text x="70" y="188" fill="#b6c7d1" font-family="Arial,sans-serif" font-size="23">Historical data · machine learning · browser inference</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="68" y="236" width="700" height="344" rx="22" fill="#0b1119" stroke="#fff" stroke-opacity=".16"/>
+    <text x="100" y="280" fill="#dbe7ec" font-size="18" font-weight="700" letter-spacing="2">DAILY OBSERVATIONS</text>
+    <path d="M112 500H722M112 444H722M112 388H722M112 332H722" stroke="#fff" stroke-opacity=".1"/>
+    <path d="M116 464 C165 423 185 449 230 398 S298 421 344 354 S408 383 456 340 S520 365 566 310 S636 353 720 280" fill="none" stroke="url(#accent)" stroke-width="6" stroke-linecap="round"/>
+    <path d="M116 505 C164 497 186 474 230 486 S302 462 344 474 S410 450 456 463 S524 437 566 450 S636 419 720 432" fill="none" stroke="#8ca4b4" stroke-opacity=".72" stroke-width="3" stroke-linecap="round"/>
+    <text x="112" y="540" fill="#8294a1" font-size="14">90 DAYS</text><text x="650" y="540" fill="#8294a1" font-size="14">TODAY</text>
+    <rect x="798" y="236" width="334" height="154" rx="22" fill="#101922" stroke="#fff" stroke-opacity=".18"/>
+    <text x="830" y="280" fill="#9eb1bf" font-size="15" letter-spacing="2">NEXT-DAY RAINFALL</text>
+    <text x="830" y="344" fill="#fff" font-size="44" font-weight="700">LSTM</text>
+    <text x="1030" y="344" fill="#7cd4dc" font-size="18">30-day window</text>
+    <rect x="798" y="408" width="334" height="172" rx="22" fill="#101922" stroke="#fff" stroke-opacity=".18"/>
+    <text x="830" y="452" fill="#9eb1bf" font-size="15" letter-spacing="2">MODEL READOUT</text>
+    <text x="830" y="504" fill="#fff" font-size="24" font-weight="700">MAE</text><text x="1050" y="504" fill="#7cd4dc" font-size="24">3.67°C</text>
+    <text x="830" y="545" fill="#fff" font-size="18">Linear Regression · chronological holdout</text>
+  </g>
+</svg>
